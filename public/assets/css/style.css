@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+
+    /* Layout */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-form, .edit-form, .user-list {
+    padding: 5px;
+    border: 1px solid #dddddd;
+}
+
+.heading-title {
+    color: #222222;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+form div {
+    padding: 3px;
+    text-align: center;
+}
+
+form div a {
+    color:  #444444;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+form input, form button {
+    padding: 10px 7px;
+    border: 1px solid #dddddd;
+    width: 100%;
+}
+
+.user-list-table, .user-list-table th, .user-list-table td {
+    padding: 10px 5px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+.show-edit-form,
+.show-drop-form,
+.show-add-form {
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #eeeeee;
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+.btn-update, .show-edit-form { background-color: darkorange; color: #222222; }
+.show-drop-form { background-color: crimson; color: #dddddd; }
+.btn-add, .show-add-form { background-color: rgb(1, 82, 158); color: #dddddd; }
+
+.btn-cancel {
+    color: crimson;
+}
